@@ -1,9 +1,17 @@
+/**
+ * My solution to the Kata found at https://www.codewars.com/kata/buying-a-car/
+ * 
+ * @author Adam Tak
+ * @version 1.0
+ * @since 08/05/2019
+ */
+
 package Java;
 
 public class BuyCar {
 
+    //Method that returns an int array: first element is months past, second element is leftover money after car purchase
 	public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingperMonth, double percentLossByMonth) {
-    // your code
         int totalSavings = 0;
         int monthCount = 0;
         double priceOld = (double) startPriceOld;
